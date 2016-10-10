@@ -19,8 +19,8 @@ including [a nice vector Tux](https://github.com/garrett/Tux).
 Feel free to [contact me there](http://twitter.com/home?status=@garrett:+).
 {% endcapture %}
 
-<div class="grid">
-  <div class="col">
+<div class="grid-center">
+  <div class="col_lg-6_xs-10">
     {{ intro | markdownify }}
   </div>
 </div>
