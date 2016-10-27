@@ -30,24 +30,18 @@ $content-width: 60em
 // Import partials from the `minima` theme.
 @import minima
 
-// Events and upcoming support. 
-// Comment out or remove if you don't use calendar or upcoming features.
-//@import lib/events
+// Import grid (see http://gridlex.devlint.fr/ for docs)
+@import vendor/gridlex
 
+////////////////////////////////////////////////////////////////////////
+@import lib/nav
 @import lib/pagination
 @import lib/blog
-@import lib/navbar
-@import lib/scrollbar-on
 @import lib/stickyfooter
+@import lib/scrollbar-on
+//@import lib/events
+//@import lib/stickyheader
 
-// Minima also includes a mixin for defining media queries.
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 
 @import 'https://fonts.googleapis.com/css?family=Fjalla+One|PT+Sans'
 
