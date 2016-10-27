@@ -14,8 +14,6 @@ $base-font-weight: 400
 $small-font-size: $base-font-size * 0.875
 $base-line-height: 1.5
 
-$spacing-unit: 1rem
-
 $text-color: #111
 $background-color: #fdfdfd
 $brand-color: #2a7ae2
@@ -25,7 +23,7 @@ $grey-color-light: lighten($grey-color, 40%)
 $grey-color-dark: darken($grey-color, 25%)
 
 // Width of the content area
-$content-width: 60em
+$content-width: 65em
 
 // Import partials from the `minima` theme.
 @import minima
@@ -56,11 +54,14 @@ h2
   margin: 2ex 0
   color: #777
 
-.page-content
-  margin: calc(30vw - 10vh) auto 2em
+body
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
 
-  .grid
-    margin: 0 auto
+  .intro
+    margin-top: -$spacing-unit
 
-p + p
-  margin-top: 1.6ex
+    h1
+      padding-top: $spacing-unit
