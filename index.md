@@ -3,24 +3,21 @@ layout: default
 ---
 
 {% capture intro %}
-# Hi, I’m Garrett.
+# [Garrett](https://garrettlesage.com/)'s GitHub stuff
 
-## Welcome to my humble little website.
+## My GitHub pages
 
-I am a UX/UI designer and have been focusing on libré / open source
-software since 1996.
+- [**Cockpit-project.org** staging site](/cockpit-project.github.io/)
+- [Cockpit **web-based mockups**](/cockpit-mockweb/)
 
-Photography is one of the things I do for fun. [See photos I've taken on Flickr](http://flickr.com/garrett).
+## Selected GitHub projects
 
-I have [things on github](https://github.com/garrett), 
-including [a nice vector Tux](https://github.com/garrett/Tux).
+- [Tux, the Linux penguin mascot, in vector](https://github.com/garrett/Tux)
 
-[I'm pretty active on Twitter](http://twitter.com/garrett).
-Feel free to [contact me there](http://twitter.com/home?status=@garrett:+).
 {% endcapture %}
 
-<div class="grid-center intro">
-  <div class="col-12_lg-8_xs-10">
+<div class="grid-center">
+  <div>
     {{ intro | markdownify }}
   </div>
 </div>
